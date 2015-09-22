@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyVAC</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Start of first page -->
+
+<div data-role="page" id="foo">
+
+	<div data-role="header">
+		<h1>MyVAC</h1>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#money" data-icon="shop">Where's my money?</a></li>
+		<li><a href="#progress" data-icon="calendar">View Progress</a></li>
+		<li><a href="#contact" data-icon="phone">Who's my contact?</a></li>
+		<li><a href="#benefit" data-icon="user">My Benefits</a></li>
+	</ul>
+
+</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>Please choose one of the options above to get the services you require.</p>
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+
+<!-- Start of Where's my money' -->
+<div data-role="page" id="money">
+
+	<div data-role="header">
+		<h1>Where's my money?</h1>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#bar" data-icon="shop">Where's my money?</a></li>
+		<li><a href="#progress" data-icon="calendar">View Progress</a></li>
+		<li><a href="#contact" data-icon="phone">Who's my contact?</a></li>
+		<li><a href="#benefit" data-icon="user">My Benefits</a></li>
+	</ul>
+
+</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<div class="ui-grid-a">
+  		<div class="ui-block-a"><h3>Disability Pension</h3>
+		<p>Your pension will be directly deposited</p>
+		</div>
+  		<div class="ui-block-b"><input type="button" value="$942.47<br>October 28, 2015" style="background-color:green"></div>
+		</div><!-- /grid-a -->
+		
+		<div class="ui-grid-a">
+  		<div class="ui-block-a"><h3>Veterans Independence Program (VIP)</h3>
+		<p>Your payment for snow shovelling will be diretly deposited</p>
+		</div>
+  		<div class="ui-block-b"><input type="button" value="$1700.50<br>November 15, 2015" style="background-color:green"></div>
+		</div><!-- /grid-a -->
+		
+		<div class="ui-grid-a">
+  		<div class="ui-block-a"><h3>Claim Reimbursement</h3>
+		<p>Your claim for reimbursement for <strong>Gym Membership</strong> requires a copy of your paid receipt.</p>
+		</div>
+  		<div class="ui-block-b">
+			  <form action="#submitdoc" method="get">
+			  
+			  <input type="submit" value="Submit Document" style="background-color:red"></form></div>
+		</div><!-- /grid-a -->
+		
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+
+<!-- Start of third page -->
+<div data-role="page" id="contact">
+
+	<div data-role="header">
+		<h1>Who's my contact?</h1>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#money" data-icon="shop">Where's my money?</a></li>
+		<li><a href="#progress" data-icon="calendar">View Progress</a></li>
+		<li><a href="#contact" data-icon="phone">Who's my contact?</a></li>
+		<li><a href="#benefit" data-icon="user">My Benefits</a></li>
+	</ul>
+
+</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Case Worker</h2>
+		<ul data-role="listview" data-inset="true">
+			<li>Maria Smith</li>
+			<li data-icon="phone"><a href="#">614-555-1212</a></li>
+			<li data-icon="mail"><a href="#">maria.smith@vac-acc.gc.ca</a></li>
+			<li data-icon="location"><a href="#">Halifax, NS</a></li>
+			<li data-icon="eye"><a href="#">Facetime Me</a></li>
+		</ul>
+		
+		<h2>Upcoming Appointments</h2>
+		Choose appointment to add to your calendar.
+		<ul data-role="listview" data-inset="true">
+			<li data-icon="calendar">
+			<a href="#">October 8, 2015 @ 2:00 PM<br>
+			23 Water Street, Halifax, NS<br>
+			re: Benefit Review</a></li>
+		
+			<li data-icon="calendar">
+			<a href="#">November 21, 2015 @ 10:00 AM<br>
+			23 Water Street, Halifax, NS<br>
+			re: Medical Review</a></li>
+		
+		
+		</ul>
+		
+	
+		
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+<!-- Start of Progress -->
+<div data-role="page" id="progress">
+
+	<div data-role="header">
+		<h1>View Progress</h1>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#money" data-icon="shop">Where's my money?</a></li>
+		<li><a href="#progress" data-icon="calendar">View Progress</a></li>
+		<li><a href="#contact" data-icon="phone">Who's my contact?</a></li>
+		<li><a href="#benefit" data-icon="user">My Benefits</a></li>
+	</ul>
+
+</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>This is where the Progress section will go</p>
+		
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+
+<!-- Start of My Benefits -->
+<div data-role="page" id="benefit">
+
+	<div data-role="header">
+		<h1>My Benefits</h1>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#money" data-icon="shop">Where's my money?</a></li>
+		<li><a href="#progress" data-icon="calendar">View Progress</a></li>
+		<li><a href="#contact" data-icon="phone">Who's my contact?</a></li>
+		<li><a href="#benefit" data-icon="user">My Benefits</a></li>
+	</ul>
+
+</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>This series of questions will help you find the benefits/services that you may qualify for.</p>
+		<p>At the end you will have options to:
+			<ul>
+				<li>learn more about your services/benefits</li>
+				<li>generate a fillable form</li>
+				<li>send to [Case Manager] at VAC</li>
+				<li>save for future reference</li>	
+			</ul>
+		</p>
+		<input type="button" value="START">	
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+
+
+<!-- Start of submit doc -->
+<div data-role="page" id="submitdoc">
+
+	<div data-role="header">
+		<h1>Submit Documents</h1>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#money" data-icon="shop">Where's my money?</a></li>
+		<li><a href="#progress" data-icon="calendar">View Progress</a></li>
+		<li><a href="#contact" data-icon="phone">Who's my contact?</a></li>
+		<li><a href="#benefit" data-icon="user">My Benefits</a></li>
+	</ul>
+
+		</div>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>Please submit documentation related to <strong>Gym Membership</strong></p>
+		<div class="ui-grid-a">
+  		<div class="ui-block-a"><input type="submit" value="Upload Saved Photo"></div>
+			
+  		<div class="ui-block-b">
+			  <input type="submit" value="Take Photo"></div>
+		</div><!-- /grid-a -->
+		<p>Is there anything we should know about what you are sending us?</p>
+		<textarea name="textarea" id="textarea-a"></textarea>
+		
+		<center><input type="submit" value="Submit Information" data-inline="true"></center>	
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+
+</body>
