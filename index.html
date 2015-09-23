@@ -179,7 +179,8 @@
 				<li>save for future reference</li>	
 			</ul>
 		</p>
-		<input type="button" value="START" data-inline="true">	
+		
+		<center><a data-role="button" href="#startquestions" data-rel="dialog" data-inline="true">Start Questions</a></center>
 	</div><!-- /content -->
 
 
@@ -213,10 +214,33 @@
 		<p>Is there anything we should know about what you are sending us?</p>
 		<textarea name="textarea" id="textarea-a"></textarea>
 		
-		<center><input type="submit" value="Submit Information" data-inline="true"></center>	
+		<center><a data-role="button" href="#infosubmit" data-rel="dialog" data-inline="true">Submit Information</a></center>	
+	</div><!-- /content -->
+</div>
+
+<!-- Start of start questions -->
+<div data-role="page" id="startquestions">
+
+	<div data-role="header">
+		<h1>Start Questions</h1>
+	<p>this is where the questionairre will be</p>	
 	</div><!-- /content -->
 
 
+
 </div><!-- /page -->
+
+<!-- Start of submit info dialog box -->
+<div data-role="page" id="infosubmit">
+
+	<div data-role="header">
+		<h1>Submit Information</h1>
+	Information has been submitted.  Thank you.	
+	</div><!-- /content -->
+
+
+
+</div><!-- /page -->
+
 
 </body>
